@@ -1,4 +1,221 @@
+/*FICHA SERIE*/
 
+.ficha {
+    width:100%;
+    height: 775px;
+    position: absolute;
+}
+
+.ficha .imagenFicha{
+    position: absolute;
+    width:100%;
+    height: 775px;
+    opacity: none;
+    }
+.atrasSerie{
+    width: 55px;
+    height: 75px;
+    position: absolute;
+    top: 7%;
+}
+.infoSerie{
+position: absolute;
+width: 381px;
+height: 450px;
+left: 60px;
+top: 100px;
+background: rgba(0, 0, 0, 0.70);
+}
+
+.calificarRecomendacion{
+    position: absolute;
+    width: 381px;
+    height: 100px;
+    left: 60px;
+    top: 555px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.pregunta{
+    width: 381px;
+    position: absolute;
+width: 288px;
+height: 51px;
+left: 46px;
+top: 5px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.tituloInfoSerie{
+position: absolute;
+width: 310px;
+height: 57px;
+left: 29px;
+top: 20px;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.estrellitas{
+    display: inline-block;
+}
+
+.estrella1, .estrella2, .estrella3, .estrella4, .estrella5{
+position: absolute;
+width: 19px;
+height: 19px;
+top: 16%;
+}
+.estrella1{
+left: 120px;
+}
+.estrella2{
+left: 140px;
+}
+.estrella3{
+left: 160px;
+}
+.estrella4{
+left: 180px;
+}
+.estrella5{
+left: 200px;
+}
+
+.anioSerie{
+top:110px;
+}
+
+.apto{
+position: absolute;
+width: 32px;
+height: 24px;
+left: 130px;
+top: 113px;
+background: rgba(0, 0, 0, 0.5);
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+
+.apto .edad{
+    position: absolute;
+    width: 36px;
+    height: 25px;
+    top: -2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.temporadas{
+ position: absolute;
+width: 154px;
+height: 22px;
+left: 184px;
+top: 113px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+.textoSerie{
+width: 350px;
+height:200px;
+left: 12px;
+top: 145px;
+}
+
+.estrella6{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 111px;
+    top: 380px;
+}
+.listaFicha{
+position: absolute;
+width: 84px;
+height: 31px;
+left: 219px;
+top: 392px;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+.iconoListaFicha{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 43.04%;
+    right: 43.57%;
+    top: 378px;
+    bottom: 3.23%;
+}
+
+.like, .dislike{
+position: absolute;
+width: 34px;
+height: 34px;
+}
+
+.like{
+left: 156px;
+top: 56px;
+}
+.dislike{
+    left: 195px;
+top: 56px;
+}
+.botonReproducirSinAccionFicha{
+    top: 580px;
+}
+
+.botonReproducirSinAccionFicha  .textoBoton{
+    position: absolute;
+    left: -9%;
+    top: 10%; 
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #000000;
+    }
+
+.footerFicha{
+    top:107%;
+}
+
+
+/**/
 .contenedor{
 position: relative;
 width: 100%;
@@ -40,11 +257,11 @@ filter: blur(20px);
 }
 
 .contenedorInfo{
-width: 490px;
-height: 560px;
+width: 400px;
+height: 460px;
 position: relative;
 left: 1.8%;
-top: 5%;
+top: 10%;
 bottom: 0%;
 
 background: rgba(0, 0, 0, 0.70);
@@ -52,16 +269,16 @@ background: rgba(0, 0, 0, 0.70);
 
 .info{
 position: relative;
-width: 490px;
+width: 400px;
 height: 540px;
 }
 
 .tituloEstreno{
     position: absolute;
-    width: 490px;
+    width: 400px;
     height: 28px;
-    left: 60px;
-    top: 32px;
+    left: 12px;
+    top: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
     font-size: 30px;
@@ -70,74 +287,79 @@ height: 540px;
     
 .tituloInfo{
 position: absolute;
-width: 490px;
+width: 400px;
 height: 92px;
 top: 90px;
 text-align: center;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-weight: 600;
-font-size: 30px;
+font-weight: bolder;
+text-align: center;
+font-size: 24px;
 line-height: 35px;
 color: #FFFFFF;
 }
+
 .anio{
+    top: 170px;
+}
+.anio, .anioSerie{
     position: absolute;
     width: 130px;
     height: 28px;
-    left: 50px;
-    top: 180px;
-    
+    left: 80px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
     
     color: #FFFFFF;
-    }
+}
     
     .duracion{
     position: absolute;
     width: 95px;
     height: 23px;
-    left: 200px;
-    top: 183px;
+    left: 190px;
+    top: 173px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 23px;
     
     color: #FFFFFF;
     }
+    .texto, .textoSerie{
+        position: absolute;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 28px;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
 
+}
 .texto{
-    position: absolute;
-    width: 490px;
+    width: 400px;
     height: 289px;
-    left: 50px;
-    top: 230px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 28px;
-    color: #FFFFFF;
-    }
+    top: 220px;
+}
 
 .iconoLista{
 position: absolute;
 width: 64px;
 height: 65px;
-left: 25%;
+left: 23%;
 right: 53.09%;
-top: 60%;
+top: 54%;
 }
 
 .lista{
 position: absolute;
 width: 120px;
 height: 31px;
-left: 125px;
-top: 62%;
+left: 100px;
+top: 57%;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -153,15 +375,15 @@ color: #FFFFFF;
     height: 45px;
     left: 60%;
     right: 13.59%;
-    top: 69%;
+    top: 62.5%;
 }
 
 .informacion{
 position: absolute;
 width: 120px;
 height: 31px;
-left: 275px;
-top: 62%;
+left: 225px;
+top: 57%;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -170,16 +392,18 @@ line-height: 28px;
 
 color: #FFFFFF;
 }
-.botonReproducirSinAccion{
+.botonReproducirSinAccion, .botonReproducirSinAccionFicha{
 position: absolute;
 width: 187px;
 height: 40px;
 left: 1064px;
-top: 500px;
-
 background: rgba(117, 77, 202, 0.75);
 box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.3);
 border-radius: 50px;
+}
+
+.botonReproducirSinAccion{
+    top: 450px;
 }
 
 .textoBoton{
@@ -196,7 +420,7 @@ border-radius: 50px;
     
     color: #000000;  
 }
-.botonReproducirSinAccion .textoBoton{
+.botonReproducirSinAccion  .textoBoton{
     position: absolute;
     left: -9%;
     top: 10%; 
