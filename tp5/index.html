@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Trabajo Practico 5</title>
+    <title>Netflics</title>
 </head>
 
 <body>
     <div class="contenedor">
-      <img class="imagenFondo" src="./fondo.jpg" alt="">
+      <img class="imagenFondo" src="./images/fondo.jpg" alt="">
 
       <div class="estreno">
-      <img class="imagenEstreno" src="./animales.jpg" alt="">
+      <img class="imagenEstreno" src="./images/animales.jpg" alt="">
 
       <nav>
         <p class="netflics">NETFLICS</p>
@@ -23,10 +23,34 @@
         <div class="buscador">
             <img class="iconoBuscar"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABRUlEQVRIS9WV/TEEQRBH30VACETgRIAMiICLABEgAkSACLgIkAEREAIRUK+qp2rubmZ3rm5Plf5rt3amX3/8unfEmm20Zv/UAJvAKXAIjCOIN+AJuAW+WgMrAU6Aa0BIyXR+Dty3QOYBOr+Li1PgBniJ933gEtiL96PIqJOTA4z4IyKfdEQo5CLKtN1XrhyQLhq5te8yszKTq8iqejYH2MQd4CArS+2i5XoGvLPbFUkO+ImDrdJtOv+ngGVKZI8egfdsToqVKjXZYVKCgzdZmX4CG6EMFVKypLZvYGsZmeospe6zUtTZazZo6l8Fab0S9VBtVTjBZlIyI/e7MPvm80Otnl3L7iwycjY0G2p/dOg+SqLwm3vJ6V+wVs2X7uZ7qwpZBZCcHmf0hUxWBfRChgDMQ2Y28VCABFHaMz+iIQFFpf5/wC8KlkQZEIF18wAAAABJRU5ErkJggg=="/>
         </div>
-      <img class="notif" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABCElEQVRIS+2V0XECMQxE33aQdBAqAEpIJ6ECQgWBCiAVJCWkA0oAKiEdiFHGMHfG5oyZY/iIvjxz533SWpZFz6Ge9SkGmNkbsAwJzSR9lyTXCTCzJ2AKvAO+9vgFVsCnJF9n4yKgkfVROBZy8YmknxwhCwjiXyU2BEjSsiTAzF6ATcOSLo5XMkjZlQPMgY8u1ej7QpLva0UOsAWGVwK2ksalALtS/O93SWcJ5yr4B5wcvr9FYTTsaw4ZeI7vQquCIL4GRpUAb+/XJiQG1PR/nEvrPsSAqvY8u1yN+9BHBTtJJ4s734PKs7jcprGomaWGX3K4Fc2iVNYB4q+axyo1OVP7HsOiW87hAIlCXhmVVKADAAAAAElFTkSuQmCC"/>
-      <img class="user" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABC0lEQVRIS82U0XHCQAxE31YAJSQVJJRAB0kHSQUpIaYChgooAUpICXSQlJBUIEaMzeCzffIYm6Affdx5n07ySkwcmlifXgAzewY+Ac8eB2AlyXM2QoCZvQC7DpVXSfscIQswsznwDXhui1/gUZLn1ogAueorwaWkr6GAoux9rgs+C793ny/w3v8As44C/4CHwTNw0Un/oqrq0gfe50sfFKP4IDJSdB4aLRKIzjsBpck+APdC1ZpUz1eFO3nTNehWgJm9AeuMg1OQO/m9bW00AKX4Nnp6391UA/TYPRG3sZtSQJ/VEEFqqyMF+NCeIoXg/CBpUd1JAXal+OlzSWfd2wLGqD7V+D8nj/WaI69SWxlOApFKAAAAAElFTkSuQmCC"/>
+      <img onclick="mostrarNotificaciones()" class="notif" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABCElEQVRIS+2V0XECMQxE33aQdBAqAEpIJ6ECQgWBCiAVJCWkA0oAKiEdiFHGMHfG5oyZY/iIvjxz533SWpZFz6Ge9SkGmNkbsAwJzSR9lyTXCTCzJ2AKvAO+9vgFVsCnJF9n4yKgkfVROBZy8YmknxwhCwjiXyU2BEjSsiTAzF6ATcOSLo5XMkjZlQPMgY8u1ej7QpLva0UOsAWGVwK2ksalALtS/O93SWcJ5yr4B5wcvr9FYTTsaw4ZeI7vQquCIL4GRpUAb+/XJiQG1PR/nEvrPsSAqvY8u1yN+9BHBTtJJ4s734PKs7jcprGomaWGX3K4Fc2iVNYB4q+axyo1OVP7HsOiW87hAIlCXhmVVKADAAAAAElFTkSuQmCC"/>
+      <img onclick="mostrarMenuUser()" class="user" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABC0lEQVRIS82U0XHCQAxE31YAJSQVJJRAB0kHSQUpIaYChgooAUpICXSQlJBUIEaMzeCzffIYm6Affdx5n07ySkwcmlifXgAzewY+Ac8eB2AlyXM2QoCZvQC7DpVXSfscIQswsznwDXhui1/gUZLn1ogAueorwaWkr6GAoux9rgs+C793ny/w3v8As44C/4CHwTNw0Un/oqrq0gfe50sfFKP4IDJSdB4aLRKIzjsBpck+APdC1ZpUz1eFO3nTNehWgJm9AeuMg1OQO/m9bW00AKX4Nnp6391UA/TYPRG3sZtSQJ/VEEFqqyMF+NCeIoXg/CBpUd1JAXal+OlzSWfd2wLGqD7V+D8nj/WaI69SWxlOApFKAAAAAElFTkSuQmCC"/>
     </nav>
-    
+
+      <div hidden class="notificaciones">
+        <div class="primerNotificacion">
+            <img class="imagenNotificacion1"src="./images/vis.jpg" alt="">
+            <h1 class="titulo">Temporada 4</h1>
+            <p>¡Ya esta disponible <br> para vos!</p>
+        </div>
+        <div class="linea"></div>
+        <div class="segundaNotificacion">
+            <img class="imagenNotificacion2"src="./images/escuadron.jpg" alt="">
+            <h1 class="titulo">Escuadron <br> suicida</h1>
+            <p>Proximo estreno 7 de noviembre</p>
+        </div>
+      </div>
+
+      <div hidden class="menuUsuario">
+          <img class="sticker" src="" alt="">
+          <p class="nombre">Juan</p>
+          <div class="linea"></div>
+          <a class="cuenta" href="miCuenta.html">Cuenta</a>
+          <p class="cambiarC">Cambiar Cuenta</p>
+          <p class="centro">Centro de Ayuda</p>
+          <a class="cerrarC" href="login.html">Cerrar Sesion</a>
+      </div>
+
     <div class="contenedorInfo">
         <p class="tituloEstreno">¡SENSACIONAL ESTRENO!</p>
       <div class="info">
@@ -37,7 +61,7 @@
           <p class="lista">Mi lista</p>
           <div class="iconoLista"><img class="iconoLista" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAY0lEQVRIS+2TSxIAEAxD5f6Hrg0rnxSt6RjW0TQvIDkfOM9P34ASfhCRiAjNXQQAKIFG4G6g3V6roxG1g0a6+4h2Oqh3eqWbIIplwBBVDFrdcsnHBjvPMlYHIRPMljL5B28bZBFlOBkyNIgfAAAAAElFTkSuQmCC"/></div>
           <p class="informacion">+ Info</p>
-                    <img class="iconoInfoEstreno" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
+       <a href="fichaSerie.html"> <img class="iconoInfoEstreno" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/></a>
         </div>
         <div class="botonReproducirSinAccion">
           <p class="textoBoton">Reproducir</p>
@@ -50,19 +74,19 @@
       <p class="tendencias">Tendencias</p>
       <div class="contenidos">
         <div class="animales">
-          <img class="fotoPequeña"src="./animalesPequeña.jpg" alt="">
+          <img class="fotoPequeña"src="./images/animalesPequeña.jpg" alt="">
           <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
         </div>
         <div class="stranger">
-            <img class="fotoPequeña"src="./strangerPequeña.jpg" alt="">
+            <img class="fotoPequeña"src="./images/strangerPequeña.jpg" alt="">
            <a href="fichaSerie.html"><img  class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/></a> 
         </div>
         <div class="friends">
-            <img class="fotoPequeña"src="./friends.jpg" alt="">
+            <img class="fotoPequeña"src="./images/friends.jpg" alt="">
             <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
         </div>
         <div class="breaking">
-            <img class="fotoPequeña"src="./breaking.jpg" alt="">
+            <img class="fotoPequeña"src="./images/breaking.jpg" alt="">
             <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
         </div>
         <div class="next">
@@ -75,16 +99,23 @@
         <p class="continuar">Deseas continuar viendo...</p>
         <div class="contenidos">
           <div class="vikings">
-            <img class="fotoPequeña"src="./vikings.jpg" alt="">
+            <img class="fotoPequeña"src="./images/vikings.jpg" alt="">
+            <a href="continuarViendo.html"><div  class="vikingsHover">
+              <p class="tituloSerieHover">Vikings</p>
+                <div class="barraReproduccion">
+                    <img class="playContinuarViendo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAuUlEQVRIS9XWIQ+CQBiH8YcsX8iPpEGKlWa1WW1kk9nkJh+AbLParOre7W5jjht3B/8gle35AQfvUSA+CnGfEHADFsAauE65iBDw6UVrYJeLxADWvgAV0KVCsYB13w45pCApgO+egA3wiIFyAOs+3d00Y0gu4LtHB71C0FTAuneHnIeQOQDf3QPbX2ROwNotsOwjfwXIHpF0kWWvqfRDk40K6bCTjmvJhmNbZgmsVFvm2BSOPi//q/gCrws0GcLSJBwAAAAASUVORK5CYII="/>
+                    <div class="infoCapitulo">Temporada 5 Cap 2</div>
+                  </div>
+            </div> </a>
           </div>
           <div class="peaky">
-              <img class="fotoPequeña"src="./peakys.jpg" alt="">
+              <img class="fotoPequeña"src="./images/peakys.jpg" alt="">
           </div>
           <div class="greys">
-              <img class="fotoPequeña"src="./greys.jpg" alt="">
+              <img class="fotoPequeña"src="./images/greys.jpg" alt="">
           </div>
           <div class="perrito">
-              <img class="fotoPequeña"src="./perrito.jpg" alt="">
+              <img class="fotoPequeña"src="./images/perrito.jpg" alt="">
           </div>
           <div class="next">
               <img class="iconoNext" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAn0lEQVRIS+3UwQ3CMBBE0b8d0AkpATqgIyghnaQEUgLphA4WWcoBcYhnR4rEITk787xj2cHOX+yczwF0G/6fijLzAYwR8e5u+2uBNMEafgdewLWCqMAJmIFzFZGANnFmWogMuEgJcBAXeAIDsACXrUMvAes5yOFtYhlwwmXADa8AN2BSOv+95ZWKGjJXbrE8QeXtsSdwEbmiA3Ab6P73AbOqRhlb6X02AAAAAElFTkSuQmCC"/>
@@ -97,8 +128,8 @@
             Por ser Viernes y ayudarnos a brindarte un mejor servicio te regalamos este cupón <br>
             de descuento para que lo disfrutes mirando tu programacion favorita</p>
 
-                <img class="pedidos"src="./pedidos.jpg" alt="">
-                <img class="codigo"src="./codigo.png" alt="">
+                <img class="pedidos"src="./images/pedidos.jpg" alt="">
+                <img class="codigo"src="./images/codigo.png" alt="">
 
       </div>
 
@@ -106,19 +137,19 @@
           <p class="sugerencias">Sugerencias especialmente para ti</p>
           <div class="contenidos">
             <div class="chicas">
-              <img class="fotoPequeña"src="./lasChicas.jpg" alt="">
+              <img class="fotoPequeña"src="./images/lasChicas.jpg" alt="">
               <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
             </div>
             <div class="vis">
-                <img class="fotoPequeña"src="./vis.jpg" alt="">
+                <img class="fotoPequeña"src="./images/vis.jpg" alt="">
                 <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
             </div>
             <div class="laReina">
-                <img class="fotoPequeña"src="./laReina.jpg" alt="">
+                <img class="fotoPequeña"src="./images/laReina.jpg" alt="">
                 <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
             </div>
             <div class="laCasa">
-                <img class="fotoPequeña"src="./laCasa.jpg" alt="">
+                <img class="fotoPequeña"src="./images/laCasa.jpg" alt="">
                 <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
             </div>
             <div class="next">
@@ -138,7 +169,7 @@
       
   </footer>
 </div>
-
+<script src="./js/archivo.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
