@@ -13,15 +13,15 @@
       <img class="imagenFicha" src="./images/strangerInfo.jpg" alt="">
 
       <nav>
-        <p class="netflics">NETFLICS</p>
+        <a class="netflics" href="index.html">NETFLICS</a>
         <p class="peliculas">PELICULAS</p>
         <p class="series">SERIES</p>
         <p class="miLista">MI LISTA</p>
         <div class="buscador">
             <img class="iconoBuscar"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABRUlEQVRIS9WV/TEEQRBH30VACETgRIAMiICLABEgAkSACLgIkAEREAIRUK+qp2rubmZ3rm5Plf5rt3amX3/8unfEmm20Zv/UAJvAKXAIjCOIN+AJuAW+WgMrAU6Aa0BIyXR+Dty3QOYBOr+Li1PgBniJ933gEtiL96PIqJOTA4z4IyKfdEQo5CLKtN1XrhyQLhq5te8yszKTq8iqejYH2MQd4CArS+2i5XoGvLPbFUkO+ImDrdJtOv+ngGVKZI8egfdsToqVKjXZYVKCgzdZmX4CG6EMFVKypLZvYGsZmeospe6zUtTZazZo6l8Fab0S9VBtVTjBZlIyI/e7MPvm80Otnl3L7iwycjY0G2p/dOg+SqLwm3vJ6V+wVs2X7uZ7qwpZBZCcHmf0hUxWBfRChgDMQ2Y28VCABFHaMz+iIQFFpf5/wC8KlkQZEIF18wAAAABJRU5ErkJggg=="/>
         </div>
-      <img class="notif" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABCElEQVRIS+2V0XECMQxE33aQdBAqAEpIJ6ECQgWBCiAVJCWkA0oAKiEdiFHGMHfG5oyZY/iIvjxz533SWpZFz6Ge9SkGmNkbsAwJzSR9lyTXCTCzJ2AKvAO+9vgFVsCnJF9n4yKgkfVROBZy8YmknxwhCwjiXyU2BEjSsiTAzF6ATcOSLo5XMkjZlQPMgY8u1ej7QpLva0UOsAWGVwK2ksalALtS/O93SWcJ5yr4B5wcvr9FYTTsaw4ZeI7vQquCIL4GRpUAb+/XJiQG1PR/nEvrPsSAqvY8u1yN+9BHBTtJJ4s734PKs7jcprGomaWGX3K4Fc2iVNYB4q+axyo1OVP7HsOiW87hAIlCXhmVVKADAAAAAElFTkSuQmCC"/>
-      <img class="user" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABC0lEQVRIS82U0XHCQAxE31YAJSQVJJRAB0kHSQUpIaYChgooAUpICXSQlJBUIEaMzeCzffIYm6Affdx5n07ySkwcmlifXgAzewY+Ac8eB2AlyXM2QoCZvQC7DpVXSfscIQswsznwDXhui1/gUZLn1ogAueorwaWkr6GAoux9rgs+C793ny/w3v8As44C/4CHwTNw0Un/oqrq0gfe50sfFKP4IDJSdB4aLRKIzjsBpck+APdC1ZpUz1eFO3nTNehWgJm9AeuMg1OQO/m9bW00AKX4Nnp6391UA/TYPRG3sZtSQJ/VEEFqqyMF+NCeIoXg/CBpUd1JAXal+OlzSWfd2wLGqD7V+D8nj/WaI69SWxlOApFKAAAAAElFTkSuQmCC"/>
+        <img onclick="mostrarNotificaciones()" class="notif" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABCElEQVRIS+2V0XECMQxE33aQdBAqAEpIJ6ECQgWBCiAVJCWkA0oAKiEdiFHGMHfG5oyZY/iIvjxz533SWpZFz6Ge9SkGmNkbsAwJzSR9lyTXCTCzJ2AKvAO+9vgFVsCnJF9n4yKgkfVROBZy8YmknxwhCwjiXyU2BEjSsiTAzF6ATcOSLo5XMkjZlQPMgY8u1ej7QpLva0UOsAWGVwK2ksalALtS/O93SWcJ5yr4B5wcvr9FYTTsaw4ZeI7vQquCIL4GRpUAb+/XJiQG1PR/nEvrPsSAqvY8u1yN+9BHBTtJJ4s734PKs7jcprGomaWGX3K4Fc2iVNYB4q+axyo1OVP7HsOiW87hAIlCXhmVVKADAAAAAElFTkSuQmCC"/>
+        <img onclick="mostrarMenuUser()" class="user" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABC0lEQVRIS82U0XHCQAxE31YAJSQVJJRAB0kHSQUpIaYChgooAUpICXSQlJBUIEaMzeCzffIYm6Affdx5n07ySkwcmlifXgAzewY+Ac8eB2AlyXM2QoCZvQC7DpVXSfscIQswsznwDXhui1/gUZLn1ogAueorwaWkr6GAoux9rgs+C793ny/w3v8As44C/4CHwTNw0Un/oqrq0gfe50sfFKP4IDJSdB4aLRKIzjsBpck+APdC1ZpUz1eFO3nTNehWgJm9AeuMg1OQO/m9bW00AKX4Nnp6391UA/TYPRG3sZtSQJ/VEEFqqyMF+NCeIoXg/CBpUd1JAXal+OlzSWfd2wLGqD7V+D8nj/WaI69SWxlOApFKAAAAAElFTkSuQmCC"/>
     </nav>
 
     <div hidden class="notificaciones">
@@ -39,14 +39,14 @@
       </div>
 
       <div hidden class="menuUsuario">
-          <img class="sticker" src="" alt="">
-          <p class="nombre">Juan</p>
-          <div class="linea"></div>
-          <p class="cuenta">Cuenta</p>
-          <p class="cambiarC">Cambiar Cuenta</p>
-          <p class="centro">Centro de Ayuda</p>
-          <p class="cerrarC" >Cerrar Sesion</p>
-      </div>
+        <img class="sticker" src="" alt="">
+        <p class="nombre">Juan</p>
+        <div class="linea"></div>
+        <a class="cuenta" href="miCuenta.html">Cuenta</a>
+        <p class="cambiarC">Cambiar Cuenta</p>
+        <p class="centro">Centro de Ayuda</p>
+        <a class="cerrarC" href="login.html">Cerrar Sesion</a>
+    </div>
       
    <a href="index.html"><img class="atrasFicha" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAApElEQVRIS+2TwQ3CMBAEZzugk1AClEAltJB0RAdQAumEDows+RFFSHuxY4lH8nU0cx7bovOnznwOgS38f4lSSifgLmmy48O2Qy7wJ3AGJkmjk4QTreAzcJH02UVQC89yu4MWuBW0wqOCFzAAb+Aa6b48l2iiaokV5GlKqipJSNAiCQt+SG6SHru8gyWk5MqPzMLtLXLTRdY3JYoA1/8cAlute6IvcKdCGbVN+ZcAAAAASUVORK5CYII="/></a> 
     <div class="infoSerie">
@@ -66,7 +66,8 @@
             <p class="textoSerie">La historia arranca durante la década de los 80, en el pueblo ficticio de Hawkins, Indiana, cuando un niño llamado Will Byers desaparece, hecho que destapa los extraños sucesos que tienen lugar en la zona, producto de una serie de experimentos que realiza el gobierno en un laboratorio científico cercano.</p>
             <p class="listaFicha">Mi lista</p>
          <img class="iconoListaFicha" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAY0lEQVRIS+2TSxIAEAxD5f6Hrg0rnxSt6RjW0TQvIDkfOM9P34ASfhCRiAjNXQQAKIFG4G6g3V6roxG1g0a6+4h2Oqh3eqWbIIplwBBVDFrdcsnHBjvPMlYHIRPMljL5B28bZBFlOBkyNIgfAAAAAElFTkSuQmCC"/>       
-         <img class="estrella6" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABuElEQVRIS7VVi1HCUBDcrUCpQKlArECoQK1AqUCsQK1ArUCsQDsQO4AKpAOxgnWWuRcfkGQeKjeTCZPAfu7tHcSOizvGx1YEkqYARPK4VFgxgaRLAE8BPCQ5LiHZhmAC4CRAJyQH/0YgqQ/gDcBXgO4BGJA0aWsVOZD0CuAUwF2g3QB4Jum2/Y1A0iGAj0DpxP0z7l2S8zaGyoGkMwBHAAzoy7UPoBefK8WSfMAX8dzJWsRnk/makbTrn5hKUosS976X1IYrA/ssaovkUnzuII/hMwCrXJA0UGNJskM7fYgO+LtVjFcO+TdZl2TwewAWaKejfEY2UrRGMiY5bJIf4I6vXRi8v+64NqalTmJ1OBi14CtnsK5Sknt65eyTvK1zIcmJOWgbusZBk5RWw3mKXI2IFNdrkha0UW0EKbYdkotIS77spjE7LwDeSXqdlBFku8cD05PkFnk95OVnjwDSVC+FrDM0HfIoopdmIE1zvouM5feOqSe/tpVNBGm5JUEz5zxFMNrl/jtBqWqXXxOBraY10JaivHVzkt3SFqXWVKpbhs3tW/67+byKCFpWz9aviv5wtkbNfvAN2na7GTXnPDIAAAAASUVORK5CYII="/>
+         <img hidden onclick = "llenarEstrella()" class="estrella6" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABuElEQVRIS7VVi1HCUBDcrUCpQKlArECoQK1AqUCsQK1ArUCsQDsQO4AKpAOxgnWWuRcfkGQeKjeTCZPAfu7tHcSOizvGx1YEkqYARPK4VFgxgaRLAE8BPCQ5LiHZhmAC4CRAJyQH/0YgqQ/gDcBXgO4BGJA0aWsVOZD0CuAUwF2g3QB4Jum2/Y1A0iGAj0DpxP0z7l2S8zaGyoGkMwBHAAzoy7UPoBefK8WSfMAX8dzJWsRnk/makbTrn5hKUosS976X1IYrA/ssaovkUnzuII/hMwCrXJA0UGNJskM7fYgO+LtVjFcO+TdZl2TwewAWaKejfEY2UrRGMiY5bJIf4I6vXRi8v+64NqalTmJ1OBi14CtnsK5Sknt65eyTvK1zIcmJOWgbusZBk5RWw3mKXI2IFNdrkha0UW0EKbYdkotIS77spjE7LwDeSXqdlBFku8cD05PkFnk95OVnjwDSVC+FrDM0HfIoopdmIE1zvouM5feOqSe/tpVNBGm5JUEz5zxFMNrl/jtBqWqXXxOBraY10JaivHVzkt3SFqXWVKpbhs3tW/67+byKCFpWz9aviv5wtkbNfvAN2na7GTXnPDIAAAAASUVORK5CYII="/>
+         <img hidden class="estrella7"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABW0lEQVRIS7WVYVXDQBCE51MAOKAKAAW0CgAHRQFFAVQBOAAc4IDigCqgEkDB8JaXhDS9JJeW7nv3J3eZ2bmd3UN7DvaMr0EEtj8kGTjLTSybwPZU0lMBfA0855AMIVhIOi9AF8Dk3whsjyW9NQAnQJB2RpYC26+SLhpIL0Bc224Eto8lfbagjIBVF0OlwPalpBNJARgr4lDSaU+S4ayv4kyQxVoCofrPprbdJ3fIPvCbfF1B3YZDsFJnKxuvFbnh9W1IviXN6j2y4aIdSAJ8DERNqkjadAuSJPhaDZr3YftR0k3mPbU2XWuj2a6Phj6eWyAS2ogugiG2fQdinOQRtMyePhVHQNlwvUWeSXpIIM6Lb3eJvauye3Nc1BxuS0nT0oK2Y3zEexCjpYzk8GuzaUg9KP6cA/ep+7Ed30s1K2DUPNdGUDZLlXVbAWpqBGwMxqz3oK+6Xft7J/gBzgh6GVO/YMAAAAAASUVORK5CYII="/>
 
         </div>
         <div class="calificarRecomendacion">
@@ -91,7 +92,7 @@
       
   </footer>
 </div>
-<script src="./js/archivo.js"></script>
+<script src="./js/archivoSerie.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
