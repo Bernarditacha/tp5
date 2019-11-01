@@ -1,7 +1,7 @@
 /************************* CONTINUAR VIENDO SERIE *************************/
 .view {
     width:100%;
-    height: 657px;
+    height: 655px;
     position: absolute;
 }
 .view .imagenContinuarViendo{
@@ -16,9 +16,9 @@
 
 .view .barraReproduccion{
     position:absolute;
-    top: 91.6%;
+    top: 91.62%;
     width: 100%;
-    height: 55px;
+    height: 56.5px;
     background: rgba(196, 196, 196, 0.3);
 }
 
@@ -31,18 +31,18 @@ top: 1px;
 }
 .view .playContinuarViendo{
     position: absolute;
-    width: 30px;
-    height: 33px;
+    width: 27px;
+    height: 30px;
     left: 25px;
-    top: 10px;
+    top: 14px;
 }
 
 .volumen{
     position: absolute;
-    width: 35px;
-    height: 35px;
+    width: 33px;
+    height: 33px;
 left: 80px;
-top: 10px;
+top: 12px;
 }
     
 .view .infoCapitulo{
@@ -50,12 +50,12 @@ top: 10px;
     width: 300px;
     height: 27px;
     left: 73%;
-    top: 12px;
+    top: 14px;
     
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 26px;
     
     color: #FFFFFF;
@@ -63,10 +63,10 @@ top: 10px;
 
 .expand{
     position: absolute;
-width: 50px;
-height: 43px;
+width: 40px;
+height: 35px;
 left: 94.5%;
-top: 7px;
+top: 12px;
 }
     
 /************************* FICHA SERIE *************************/
@@ -91,7 +91,7 @@ position: absolute;
 width: 381px;
 height: 450px;
 left: 60px;
-top: 100px;
+top: 90px;
 background: rgba(0, 0, 0, 0.70);
 }
 
@@ -100,7 +100,7 @@ background: rgba(0, 0, 0, 0.70);
     width: 381px;
     height: 100px;
     left: 60px;
-    top: 555px;
+    top: 545px;
     background: rgba(0, 0, 0, 0.7);
 }
 
@@ -298,7 +298,7 @@ top: 56px;
     }
 
 .footerFicha{
-    top:107%;
+    top:107.2%;
 }
 /************************* PLAN - PASO 1  *************************/
 .contenedorPasos{
@@ -869,6 +869,123 @@ top: 400px;
     top: 470px;
 
 }
+
+/************************* MI LISTA *************************/
+
+
+.contenedorLista,  .contenedorPeliculas{
+    position: absolute;
+    width:100%;
+    height: 728px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.contenidoMiLista{
+position: absolute;
+width: 1235px;
+height: 45px;
+left: 29px;
+top: 90px;
+background: rgba(0, 0, 0, 0.7);
+}
+
+.tituloContenidoMiLista{
+position: absolute;
+width: 514px;
+height: 35px;
+left: 24px;
+top: 4px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.tarjetas{
+    position: absolute;
+    width:100%;
+    height: 378px;
+    top: 180%;
+}
+
+.tarjeta1, .tarjeta2, .tarjeta3, .tarjeta4{
+position: absolute;
+width: 234px;
+height: 378px;
+background-color: #000000;
+}
+
+.tarjeta1, .tarjetaOtra1{
+     left: 53px;
+}
+.tarjeta2, .tarjetaOtra2{
+    left: 349px;
+}
+.tarjeta3, .tarjetaOtra3{
+    left: 645px;
+}
+.tarjeta4, .tarjetaOtra4{
+    left: 941px;
+}
+.imgTarjeta{
+position: absolute;
+width: 202px;
+top: 16px;
+height: 315px;
+left: 16px;
+}
+.tarjetaOtra1, .tarjetaOtra2, .tarjetaOtra3, .tarjetaOtra4 {
+    position:absolute;
+    top: 1105%;
+}
+.tituloTarjeta{
+    position: absolute;
+left: 6.84%;
+right: 22.22%;
+top: 91.53%;
+bottom: 2.91%;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.iconoInfoTarjeta{
+    position: absolute;
+    left: 80%;
+    right: 6.84%;
+    top: 90.2%;
+    bottom: 1.59%;
+    opacity: 0.5;
+    width: 30px;
+    height: 30px;
+
+}
+.botonPlayTarjeta{
+    position: absolute;
+    left: 40%;
+    right: 6.84%;
+    top: 45%;
+    bottom: 1.59%;
+    width: 59px;
+    height: 52px;
+
+}
+.footerLista, .footerPeliculas{
+    top: 100%;
+    background: rgba(0, 0, 0);
+}
+
+/************************* PELICULAS *************************/
+
 /************************* HOME *************************/
 .contenedor{
 position: relative;
@@ -878,7 +995,7 @@ height: 100%;
 .imagenFondo{
 position: absolute;
 width: 100%;
-height: 2170px;
+height: 2130px;
 background-repeat: no-repeat;
 z-index : -1;
 }
@@ -889,7 +1006,7 @@ z-index : -1;
     height: 1497px;
     left: -0.07%;
     right: -0.28%;
-    top: 102.75%;
+    top: 98%;
     background: rgba(0, 0, 0, 0.80);
 }
 
@@ -902,7 +1019,7 @@ z-index : -1;
 .estreno .imagenEstreno{
 position: absolute;
 width:100%;
-height: 675px;
+height: 644px;
 opacity: none;
 }
 
@@ -920,12 +1037,12 @@ filter: blur(20px);
 
 .contenedorInfo{
 width: 400px;
-height: 460px;
+height: 490px;
 position: relative;
 left: 1.8%;
 top: 10%;
 bottom: 0%;
-
+border-radius: 5px;
 background: rgba(0, 0, 0, 0.70);
 }
 
@@ -939,12 +1056,12 @@ height: 540px;
     position: absolute;
     width: 400px;
     height: 28px;
-    left: 12px;
     top: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 26px;
     color: #FFFFFF;
+    text-align-last: center;
     }
     
 .tituloInfo{
@@ -1113,7 +1230,6 @@ border-radius: 50px;
 .tituloTendencias, .tituloContinuarViendo, .tituloSugerencias{
     width: 1235px;
     height: 48px;
-
     position: absolute;
     left: 52px;
     top: 65px;
@@ -1133,7 +1249,7 @@ left: 24px;
 top: 7px;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-weight: 500;
-font-size: 24px;
+font-size: 20px;
 line-height: 28px;
 display: flex;
 align-items: center;
@@ -1267,7 +1383,7 @@ top: 23px;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 22px;
 line-height: 35px;
 text-align: center;
 
@@ -1289,14 +1405,16 @@ top: 210px;
     left: 630px;
     top: 171px;
 }
-
+.footerHome{
+    top:315%;
+}
 /******************FOOTER******************/
 footer{
 position: absolute;
 width: 100%;
 height: 71px;
 background-color: #000000;
-opacity: 0.7;
+opacity: 0.9;
 top: 320%;
 }
 
@@ -1319,10 +1437,10 @@ top: 320%;
 footer p{
 position: absolute;
 left: 186px;
-top: 27%;
+top: 38%;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-weight: 900;
-font-size: 16px;
+font-size: 14px;
 color: #474343;
 
 }
@@ -1343,6 +1461,22 @@ height: 50px;
 box-shadow: 5px 5px 25px rgba(117, 77, 202, 1.50);
 background-color: #000000;
 opacity: 0.7;
+}
+
+.lineaArribaPeliculas, .lineaArribaMiLista{
+position: absolute;
+width: 100px;
+right: 46.31%;
+top: 25%;
+border: 0.5px solid #FFFFFF;
+}
+
+.lineaArribaPeliculas{
+    left: 21.6%;
+}
+
+.lineaArribaMiLista{
+    left: 42%;
 }
 
 .user{
@@ -1392,10 +1526,10 @@ left: 23%;
 right: 5.53%;
 top: 10%;
 bottom: -0.65%;
-
+width: 100px;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-weight: 500;
-font-size: 16px;
+font-size: 12px;
 line-height: 47px;
 
 color: #FFFFFF;
@@ -1410,7 +1544,7 @@ color: #FFFFFF;
     
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 47px;
     
     color: #FFFFFF;
@@ -1420,12 +1554,11 @@ color: #FFFFFF;
     position: absolute;
     left: 44%;
     right: 11.85%;
-    top: 34%;
-    bottom: -0.65%;
-    
+    top: 37%;
+    width : 100px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     
     color: #FFFFFF;
 }
@@ -1591,7 +1724,7 @@ bottom: 46.7%;
     top: 50%;
 }
 
-.cuenta:hover, .cambiarC:hover, .centro:hover, .cerrarC:hover, .linkSubscripcion:hover {
+.cuenta:hover, .cambiarC:hover, .centro:hover, .cerrarC:hover, .linkSubscripcion:hover,.boton:hover, .netflics:hover, .peliculas:hover, .miLista:hover {
    color: white;;
 }
 .cuenta{
@@ -1615,8 +1748,7 @@ height: 75px;
 position: absolute;
 }
 
-.boton:hover, .netflics:hover{
-    color: white;
+.boton:hover, .netflics:hover, .peliculas:hover, .miLista:hover{
     text-decoration-line: none;
 }
 
