@@ -655,9 +655,9 @@ color: #FFFFFF;
 }
 /************************* LOGIN *************************/
 .contenedorLogin, .contenedorLogin .imagenFondo, .contenedorPlan, .contenedorPlan .imagenFondo{
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 657px;    
+    height: 100%;    
     background-repeat: no-repeat;
     z-index : -1;
     background: #000000;    
