@@ -8,6 +8,10 @@ body{
 }
 p{
     margin: 0;
+   
+}
+element.style {
+    vertical-align: none!important;
 }
 
 
@@ -56,7 +60,9 @@ p{
     color: #FFFFFF;
     width: 100%;
 }
-
+.btn{
+ vertical-align: initial !important;
+}
 .form-control {
     border-radius: 1em !important;
 }
