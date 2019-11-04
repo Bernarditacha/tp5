@@ -92,7 +92,9 @@ p{
 .atrasPasos{
     width: 50px;
 }
-
+.titulo .estiloLetra{
+    font-size: 24px;
+}
 .bg-light{
     background: black!important;
    opacity: 0.6;
@@ -108,6 +110,13 @@ p{
 
 .planes{
     width: 100%;
+}
+
+.tituloPaso{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
 }
 
 
@@ -204,3 +213,26 @@ footer{
     color: #474343;
     }
     
+/******************FICHA SERIE******************/
+.tituloInfoFicha{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.apto{
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    }
+    
+.apto .edad{
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.iconoEstrella{
+    width: 40px;
+  
+}
