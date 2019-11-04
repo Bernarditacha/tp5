@@ -94,8 +94,16 @@ p{
 }
 
 .bg-light{
-    background: black!important;
-   opacity: 0.6;
+    background: rgba(0, 0, 0, 0.61)!important;
+   
+}
+#netflics{
+    font-size: 2rem;
+    
+}
+.form-control{
+    background-color: rgba(137, 107, 201, 0.418);
+    border: 1px solid  rgba(95, 47, 201, 0.411);;
 }
 .pasos{
     color: #754DCA;
