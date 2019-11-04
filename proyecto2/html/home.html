@@ -17,13 +17,26 @@
 
         <div class="col-12">
                 <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light ">
-                        
+                                <div class="d-md-block d-none">
                                 <a class="navbar-brand p-0" id="netflics" href="home.html">NETFLICS</a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                       
-                      
+                            </div>
+                                <div class="d-md-none d-block">
+                                        <a class="navbar-brand p-0" id="netflics" href="home.html">N</a>
+
+                                    </div>
+
+                                    <div class="d-md-none d-block algo">
+                                    <form class="form-inline my-2 my-lg-0 ">
+                                        <div class="d-inline">
+                                            <input class="form-control mr-sm-2 buscador" type="search" placeholder="Search" aria-label="Search">
+                                        </div>
+                                    <div class="d-inline pl-2">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABRElEQVRIS72VYVXDQBCEZxSABFAAdQASUAAOACetA3CAA3BAHdA6AAXDG95e39Fmc+lL0vvXNLff3NzuhJh5ceb6SAGSLgA8ArgBcB1C1gA+AKxIboaI6wRIWkbxvhpLks8tyAFAklVexcZXAC7kZ5DkkzwBuC8nIrnog/wDVMp/bE0pvF8gQLbqLOwytHPtAOH5V7y1yIqXKgH5jN+X2Z3UgOK7LzBVVMuU9BJ2pXtqQPG+qb7jFOvsLmqAvJHkUbMhqXffSQFjLNqS9GAerJNeshXM16YxqaVVvwHcNgbtHcD54EGrWq+OCve5e7yOCgfgQ2W2/7MYi8rvYG+AhoTdKpLWuZVCWnHtiXZcl/DbAniLANxIskXOpBRy1FB1WdCCjAZEc9QnuSPpU/6tSQAVxBG/Kz4poPk9yF4Y+3wyizIhv0QaqBmi47TaAAAAAElFTkSuQmCC"/>            </form>
+                                        </div>
+                                        </form>
+                                        </div>
+                                
+                               
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav mr-auto ml-md-5 ml-0 pl-md-5 pl-0">
                             
@@ -37,8 +50,8 @@
                                                 <a class="nav-link" href="#">MI LISTA</a>
                                             </li>
                           </ul>
-                          <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                            <input class="form-control mr-sm-2 buscador" type="search" placeholder="Search" aria-label="Search">
                            
                             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABRElEQVRIS72VYVXDQBCEZxSABFAAdQASUAAOACetA3CAA3BAHdA6AAXDG95e39Fmc+lL0vvXNLff3NzuhJh5ceb6SAGSLgA8ArgBcB1C1gA+AKxIboaI6wRIWkbxvhpLks8tyAFAklVexcZXAC7kZ5DkkzwBuC8nIrnog/wDVMp/bE0pvF8gQLbqLOwytHPtAOH5V7y1yIqXKgH5jN+X2Z3UgOK7LzBVVMuU9BJ2pXtqQPG+qb7jFOvsLmqAvJHkUbMhqXffSQFjLNqS9GAerJNeshXM16YxqaVVvwHcNgbtHcD54EGrWq+OCve5e7yOCgfgQ2W2/7MYi8rvYG+AhoTdKpLWuZVCWnHtiXZcl/DbAniLANxIskXOpBRy1FB1WdCCjAZEc9QnuSPpU/6tSQAVxBG/Kz4poPk9yF4Y+3wyizIhv0QaqBmi47TaAAAAAElFTkSuQmCC"/>            </form>
                            
@@ -247,6 +260,32 @@
                       <a class="cerrarC" href="login.html">Cerrar Sesion</a>
                   </div>
             
+
+                  <div class="row d-md-none d-block fixed-bottom">
+
+                        <div class="col-12">
+                                <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light estabarra ">
+                                              
+                                        <div class="d-md-none d-block algo">
+                                                <form class="form-inline my-2 my-lg-0 ">
+                                                    <div class="d-inline">
+                                                            <a class="nav-link" href="#">MI LISTA</a>
+                                                        </div>
+                                                <div class="d-inline pl-2">
+                                                        <a class="nav-link" href="#">SERIES</a>
+                                                    </div>
+                                                    <div class="d-inline pl-2">
+                                                            <a class="nav-link" href="#">PELICULAS</a>
+                                                        </div>
+                                                    </form>
+                                                    </div>
+                                      
+                                       
+                                      </nav>
+                        </div> 
+                    </div>
+
+
                 </div>
 <script src="./js/archivoPeliculas.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -98,12 +98,19 @@ p{
     background: rgba(0, 0, 0, 0.61)!important;
    
 }
+.estabarra{
+    background: rgb(0, 0, 0)!important;
+   
+}
+.estabarra a{
+    color: white!important;
+}
 #netflics{
     font-size: 2rem;
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.74);
 }
-.form-control{
+.buscador {
     background-color: rgba(137, 107, 201, 0.418);
     border: 1px solid  rgba(95, 47, 201, 0.411);;
 }
