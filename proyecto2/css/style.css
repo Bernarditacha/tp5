@@ -1,15 +1,13 @@
-html, body {
+html, body{
     width: 100%;
     overflow-x: hidden;
 }
-
-p {
-    margin: 0;
-}
-
 body{
     background-image: url("../images/fondo1.jpg");
     background-size: 100%;
+}
+p{
+    margin: 0;
 }
 
 
@@ -81,7 +79,6 @@ body{
 }
 
 
-
 /******************** Suscripcion *********************/
 
 .contenedorSuscripcion{
@@ -101,7 +98,143 @@ body{
     background: black!important;
    opacity: 0.6;
 }
+.contenedorSuscripcion{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+   margin-top: 2%;
+   margin-bottom: 2%;
 
+}
+.plan{
+    padding-top: 2%;
+    
+}
+.pasos{
+    color: #754DCA;
+    font-size: 23px;
+    margin-right: 5%;
+}
+
+.atrasPasos{
+    width: 50px;
+    height: 60px;
+
+
+}
+
+.pasouno{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.planes{
+    width: 100%;
+}
+
+
+/*************************************HOME**********************************************/
+.bannerEstreno{
+    background-image: url(../images/animales.jpg);
+    background-size: 80%;
+}
+.contenedorInfo{
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.70);
+}
+.tituloEstreno{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+    color: #FFFFFF;
+    }
+.tituloInfo{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    }
+.anio, .anioSerie{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-size: 16px;
+        line-height: 28px;
+        
+        color: #FFFFFF;
+    }
+        
+.duracion{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 23px;
+        
+        color: #FFFFFF;
+        }
+ .texto, .textoSerie{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 28px;
+            font-size: 18px;
+            color: #FFFFFF;
+    
+    }
+    
+
+    
+    .lista{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    }
+    
+    .iconoInfoEstreno{
+        width: 45px;
+    }
+    .iconoLista{
+        width: 50px;
+        }
+    .iconoInfo{
+        width: 10%;;
+    }
+    .iconoNext{
+        width: 20%;
+    }
+    
+    .informacion{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+    }     
+
+    .fotoPequeña{
+        width: 100%;
+    }
+
+
+
+
+
+/*************************************HOME PELICULAS**********************************************/
+
+.contenedorLista,  .contenedorPeliculas{
+    position: absolute;
+    width:100%;
+    height: 728px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/******************NAVGEGADOR******************/
 
 li .milista{
     padding-right: 10%;
