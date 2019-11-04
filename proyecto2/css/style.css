@@ -249,5 +249,17 @@ footer{
 
 .iconoEstrella{
     width: 40px;
-  
+}
+
+.calificar{
+    width: 38px;
+}
+
+.preguntaRecomendacion{
+    font-size:18px;
+    font-weight: 700;
+}
+
+.anio{
+    font-size: 18px;
 }
