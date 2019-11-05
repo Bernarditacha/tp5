@@ -12,57 +12,71 @@
     
 <div container-flex>
     <div class="row">
-    <div class="col-12">
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light ">
-            <div class="mr-md-5 mr-auto">
-            <a class="navbar-brand" href="home.html">NETFLICS</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-               
-                <li class="nav-item">
-                <a class="nav-link" href="#">PELICULAS</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="#">SERIES</a>
-                        </li>
-                        <li class="nav-item mr-md-5">
-                                <a class="nav-link" href="#">MI LISTA</a>
-                                </li>
-                            </ul>
-                            <ul class="navbar-nav">
-            <form class="form-inline my-2 my-lg-0 ml-md-5 mr-md-5">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABRElEQVRIS72VYVXDQBCEZxSABFAAdQASUAAOACetA3CAA3BAHdA6AAXDG95e39Fmc+lL0vvXNLff3NzuhJh5ceb6SAGSLgA8ArgBcB1C1gA+AKxIboaI6wRIWkbxvhpLks8tyAFAklVexcZXAC7kZ5DkkzwBuC8nIrnog/wDVMp/bE0pvF8gQLbqLOwytHPtAOH5V7y1yIqXKgH5jN+X2Z3UgOK7LzBVVMuU9BJ2pXtqQPG+qb7jFOvsLmqAvJHkUbMhqXffSQFjLNqS9GAerJNeshXM16YxqaVVvwHcNgbtHcD54EGrWq+OCve5e7yOCgfgQ2W2/7MYi8rvYG+AhoTdKpLWuZVCWnHtiXZcl/DbAniLANxIskXOpBRy1FB1WdCCjAZEc9QnuSPpU/6tSQAVxBG/Kz4poPk9yF4Y+3wyizIhv0QaqBmi47TaAAAAAElFTkSuQmCC"/>            </form>
-            <li class="nav-item">
-                    <a class="nav-link" href="#">
-                            <img onclick="mostrarNotificaciones()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABCElEQVRIS+2V0XECMQxE33aQdBAqAEpIJ6ECQgWBCiAVJCWkA0oAKiEdiFHGMHfG5oyZY/iIvjxz533SWpZFz6Ge9SkGmNkbsAwJzSR9lyTXCTCzJ2AKvAO+9vgFVsCnJF9n4yKgkfVROBZy8YmknxwhCwjiXyU2BEjSsiTAzF6ATcOSLo5XMkjZlQPMgY8u1ej7QpLva0UOsAWGVwK2ksalALtS/O93SWcJ5yr4B5wcvr9FYTTsaw4ZeI7vQquCIL4GRpUAb+/XJiQG1PR/nEvrPsSAqvY8u1yN+9BHBTtJJ4s734PKs7jcprGomaWGX3K4Fc2iVNYB4q+axyo1OVP7HsOiW87hAIlCXhmVVKADAAAAAElFTkSuQmCC"/>
 
-                    </a>
-                    </li><li class="nav-item milista">
-                            <a class="nav-link" href="#">
-                                    <img onclick="mostrarMenuUser()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABC0lEQVRIS82U0XHCQAxE31YAJSQVJJRAB0kHSQUpIaYChgooAUpICXSQlJBUIEaMzeCzffIYm6Affdx5n07ySkwcmlifXgAzewY+Ac8eB2AlyXM2QoCZvQC7DpVXSfscIQswsznwDXhui1/gUZLn1ogAueorwaWkr6GAoux9rgs+C793ny/w3v8As44C/4CHwTNw0Un/oqrq0gfe50sfFKP4IDJSdB4aLRKIzjsBpck+APdC1ZpUz1eFO3nTNehWgJm9AeuMg1OQO/m9bW00AKX4Nnp6391UA/TYPRG3sZtSQJ/VEEFqqyMF+NCeIoXg/CBpUd1JAXal+OlzSWfd2wLGqD7V+D8nj/WaI69SWxlOApFKAAAAAElFTkSuQmCC"/>
+        <div class="col-12">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light ">
+                                <div class="d-md-block d-none">
+                                <a class="navbar-brand p-0" id="netflics" href="home.html">NETFLICS</a>
+                            </div>
+                                <div class="d-md-none d-block">
+                                        <a class="navbar-brand p-0" id="netflics" href="home.html">N</a>
 
-                            </a>
+                                    </div>
+
+                                    <div class="d-md-none d-block algo">
+                                    <form class="form-inline my-2 my-lg-0 ">
+                                        <div class="d-inline">
+                                            <input class="form-control mr-sm-2 buscador" type="search" placeholder="Search" aria-label="Search">
+                                        </div>
+                                    <div class="d-inline pl-2">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABRElEQVRIS72VYVXDQBCEZxSABFAAdQASUAAOACetA3CAA3BAHdA6AAXDG95e39Fmc+lL0vvXNLff3NzuhJh5ceb6SAGSLgA8ArgBcB1C1gA+AKxIboaI6wRIWkbxvhpLks8tyAFAklVexcZXAC7kZ5DkkzwBuC8nIrnog/wDVMp/bE0pvF8gQLbqLOwytHPtAOH5V7y1yIqXKgH5jN+X2Z3UgOK7LzBVVMuU9BJ2pXtqQPG+qb7jFOvsLmqAvJHkUbMhqXffSQFjLNqS9GAerJNeshXM16YxqaVVvwHcNgbtHcD54EGrWq+OCve5e7yOCgfgQ2W2/7MYi8rvYG+AhoTdKpLWuZVCWnHtiXZcl/DbAniLANxIskXOpBRy1FB1WdCCjAZEc9QnuSPpU/6tSQAVxBG/Kz4poPk9yF4Y+3wyizIhv0QaqBmi47TaAAAAAElFTkSuQmCC"/>            
+                                        </div>
+                                        <div class="d-inline pl-2">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABCElEQVRIS+2V0XECMQxE33aQdBAqAEpIJ6ECQgWBCiAVJCWkA0oAKiEdiFHGMHfG5oyZY/iIvjxz533SWpZFz6Ge9SkGmNkbsAwJzSR9lyTXCTCzJ2AKvAO+9vgFVsCnJF9n4yKgkfVROBZy8YmknxwhCwjiXyU2BEjSsiTAzF6ATcOSLo5XMkjZlQPMgY8u1ej7QpLva0UOsAWGVwK2ksalALtS/O93SWcJ5yr4B5wcvr9FYTTsaw4ZeI7vQquCIL4GRpUAb+/XJiQG1PR/nEvrPsSAqvY8u1yN+9BHBTtJJ4s734PKs7jcprGomaWGX3K4Fc2iVNYB4q+axyo1OVP7HsOiW87hAIlCXhmVVKADAAAAAElFTkSuQmCC"/>           
+                                        </div> 
+                                        <div class="d-inline pl-2">
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABC0lEQVRIS82U0XHCQAxE31YAJSQVJJRAB0kHSQUpIaYChgooAUpICXSQlJBUIEaMzeCzffIYm6Affdx5n07ySkwcmlifXgAzewY+Ac8eB2AlyXM2QoCZvQC7DpVXSfscIQswsznwDXhui1/gUZLn1ogAueorwaWkr6GAoux9rgs+C793ny/w3v8As44C/4CHwTNw0Un/oqrq0gfe50sfFKP4IDJSdB4aLRKIzjsBpck+APdC1ZpUz1eFO3nTNehWgJm9AeuMg1OQO/m9bW00AKX4Nnp6391UA/TYPRG3sZtSQJ/VEEFqqyMF+NCeIoXg/CBpUd1JAXal+OlzSWfd2wLGqD7V+D8nj/WaI69SWxlOApFKAAAAAElFTkSuQmCC"/>           
+                                            </div>
+                                        </form>
+                                        </div>
+                                
+                               
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto ml-md-5 ml-0 pl-md-5 pl-0">
+                            
+                                <li class="nav-item pr-md-4 pr-0">
+                                        <a class="nav-link" href="#">PELICULAS</a>
+                                    </li>
+                                    <li class="nav-item pr-md-4 pr-0">
+                                            <a class="nav-link" href="#">SERIES</a>
+                                        </li>
+                                        <li class="nav-item mr-md-5">
+                                                <a class="nav-link" href="#">MI LISTA</a>
+                                            </li>
+                          </ul>
+                          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                            <input class="form-control mr-sm-2 buscador" type="search" placeholder="Search" aria-label="Search">
+                           
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABRElEQVRIS72VYVXDQBCEZxSABFAAdQASUAAOACetA3CAA3BAHdA6AAXDG95e39Fmc+lL0vvXNLff3NzuhJh5ceb6SAGSLgA8ArgBcB1C1gA+AKxIboaI6wRIWkbxvhpLks8tyAFAklVexcZXAC7kZ5DkkzwBuC8nIrnog/wDVMp/bE0pvF8gQLbqLOwytHPtAOH5V7y1yIqXKgH5jN+X2Z3UgOK7LzBVVMuU9BJ2pXtqQPG+qb7jFOvsLmqAvJHkUbMhqXffSQFjLNqS9GAerJNeshXM16YxqaVVvwHcNgbtHcD54EGrWq+OCve5e7yOCgfgQ2W2/7MYi8rvYG+AhoTdKpLWuZVCWnHtiXZcl/DbAniLANxIskXOpBRy1FB1WdCCjAZEc9QnuSPpU/6tSQAVxBG/Kz4poPk9yF4Y+3wyizIhv0QaqBmi47TaAAAAAElFTkSuQmCC"/>            </form>
+                           
+                        </form>
+                        <div class="pl-md-5 pl-auto">
+                                <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                <img class="pr-md-3 pr-0" onclick="mostrarNotificaciones()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABCElEQVRIS+2V0XECMQxE33aQdBAqAEpIJ6ECQgWBCiAVJCWkA0oAKiEdiFHGMHfG5oyZY/iIvjxz533SWpZFz6Ge9SkGmNkbsAwJzSR9lyTXCTCzJ2AKvAO+9vgFVsCnJF9n4yKgkfVROBZy8YmknxwhCwjiXyU2BEjSsiTAzF6ATcOSLo5XMkjZlQPMgY8u1ej7QpLva0UOsAWGVwK2ksalALtS/O93SWcJ5yr4B5wcvr9FYTTsaw4ZeI7vQquCIL4GRpUAb+/XJiQG1PR/nEvrPsSAqvY8u1yN+9BHBTtJJ4s734PKs7jcprGomaWGX3K4Fc2iVNYB4q+axyo1OVP7HsOiW87hAIlCXhmVVKADAAAAAElFTkSuQmCC"/>
+                                <li class="nav-item">
+                                <img onclick="mostrarMenuUser()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABC0lEQVRIS82U0XHCQAxE31YAJSQVJJRAB0kHSQUpIaYChgooAUpICXSQlJBUIEaMzeCzffIYm6Affdx5n07ySkwcmlifXgAzewY+Ac8eB2AlyXM2QoCZvQC7DpVXSfscIQswsznwDXhui1/gUZLn1ogAueorwaWkr6GAoux9rgs+C793ny/w3v8As44C/4CHwTNw0Un/oqrq0gfe50sfFKP4IDJSdB4aLRKIzjsBpck+APdC1ZpUz1eFO3nTNehWgJm9AeuMg1OQO/m9bW00AKX4Nnp6391UA/TYPRG3sZtSQJ/VEEFqqyMF+NCeIoXg/CBpUd1JAXal+OlzSWfd2wLGqD7V+D8nj/WaI69SWxlOApFKAAAAAElFTkSuQmCC"/>
                             </li>
-        </ul>
-            </div>
+                        </ul>
+                            </div>
+                        </div>
+                      </nav>
         </div> 
     </div>
-            <div class="row m-4 d-flex justify-content-center">
-                <div class="btn-group">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
-                      Busqueda personalizada                                           
-                    </button>
-                    <div class="dropdown-menu dropdown">
-                      <button class="dropdown-item" type="button">Action</button>
-                      <button class="dropdown-item" type="button">Another action</button>
-                      <button class="dropdown-item" type="button">Something else here</button>
-                    </div>
-                  </div>
+            <div class="row m-4 d-flex  justify-content-center">
+                <div onclick="mostrarFiltro" class="col-8 m-2 contenedorInfo " style=" background: rgba(136, 93, 228, 0.425);" >
+                      <p  class="estiloLetra tituloInfo text-center">Busquedas personalizadas</p>
+                </div>
 
             </div>
                   
@@ -117,7 +131,7 @@
             <div class="col-8 p-4  mt-5 "  style="background: rgba(78, 78, 78, 0.3);">
                     <div class="row mb-4">
                         <div class="col-12 text-center">
-                        <p class="lista estiloLetra">¡ Gracias por dejarnos conocerte un poco más ! 
+                        <p class="tituloInfo estiloLetra">¡ Gracias por dejarnos conocerte un poco más ! 
                             Por ser Viernes y ayudarnos a brindarte un mejor servicio te regalamos este cupón 
                             de descuento para que lo disfrutes mirando tu programacion favorita</p>
             </div>
@@ -133,32 +147,8 @@
                          
          </div>
     </div>    
-             <div class="row mt-4 mb-3 mx-3 contenedorInfo">
-                <div class="col-12  ">
-                    <p class="lista estiloLetra m-2">Sugeriencias especialmente para ti</p>
-                </div>
-            </div>  
-            <div class="row m-2">
-                    <div class="col-3">
-                              <img class="fotoPequeña"src="../images/lasChicas.jpg" alt="">
-                              <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
-                    </div>      
-                    <div class="col-3">
-                                <img class="fotoPequeña"src="../images/vis.jpg" alt="">
-                               <a href="fichaSerie.html"><img  class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/></a> 
-                    </div> 
-                    <div class="col-3">
-                                    <img class="fotoPequeña"src="../images/laReina.jpg" alt="">
-                                    <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
-                    </div>      
-                    <div class="col-3"> 
-                                    <img class="fotoPequeña"src="../images/laCasa.jpg" alt="">
-                                    <img class="iconoInfo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABeUlEQVRIS7VV0VHDMBSTJgEmgE4AI8AEsAFlA5gAOgEwAWUDmAC6QTuJON09h8Sxk1BS3/kjZ+fp6T09mTjw4oHjYxRA0g2AcwBnsZ3Td+w1yfehJKsAki4BPAI4HmG5BXBHcl26VwSQ9ATgNn7YAHgB8EHSmUOS2VwAWAI4inv3JB9ykB5AFtyZGay6JBnETL1WJP3drA5AlOUtThcp4zEhZP9dtcuVA7ieplzMXJIMRrLEPDHZkjxJSTUXQy3PAHYki40dAojepAQbFm0AN/K6ln0EqDKI88TilaTl/TsHkqyQUwDV2k9gYHV9eUZILnKAweymMCjdaZfo4ABzlmhD0uXq9GC0yRPmYbDJ9h4PWUfH7aATmlyXaabj/wxaZ47msookT+dZt4pg0XbSJcnVbGaXAmWO6roa9DOzaz9CbmqylZ6TdlSUZxkO6cDJ72tEdgb604OTKcfq8nadbSVefoQ8N34yiy9Zz03HNL7v+eijv2/g9N8P9S3eGSVnsrAAAAAASUVORK5CYII="/>
-                    </div>      
-                            <div class="next">
-                                <img class="iconoNext" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAn0lEQVRIS+3UwQ3CMBBE0b8d0AkpATqgIyghnaQEUgLphA4WWcoBcYhnR4rEITk787xj2cHOX+yczwF0G/6fijLzAYwR8e5u+2uBNMEafgdewLWCqMAJmIFzFZGANnFmWogMuEgJcBAXeAIDsACXrUMvAes5yOFtYhlwwmXADa8AN2BSOv+95ZWKGjJXbrE8QeXtsSdwEbmiA3Ab6P73AbOqRhlb6X02AAAAAElFTkSuQmCC"/>
-                            </div>
-                          </div>
+         
+        
 
             <footer class="row mt-4">
                 <div class="col-2 my-2">
