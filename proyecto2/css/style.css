@@ -308,3 +308,12 @@ footer{
     padding-right: 0rem!important;
 
 }
+/***********************REPRODUCIR PELICULA*******************/
+.contenedorRepro{
+    background: rgba(110, 110, 110, 0.281);
+position: absolute;
+bottom: 0;
+}
+.iconosRepro{
+    width: 40%;
+}
