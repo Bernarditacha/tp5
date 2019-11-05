@@ -142,6 +142,12 @@ element.style {
     font-size: 2rem;
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.74);
+    
+}
+#logoN{
+    font-weight: bolder;
+    color: rgba(162, 29, 189, 0.788)!important;
+    border: 1px solid rgba(162, 29, 189, 0.788)!important;
 }
 .buscador {
     background-color: rgba(137, 107, 201, 0.418);
