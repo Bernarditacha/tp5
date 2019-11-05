@@ -66,9 +66,18 @@
                                                 <img onclick="mostrarNotificaciones()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABCElEQVRIS+2V0XECMQxE33aQdBAqAEpIJ6ECQgWBCiAVJCWkA0oAKiEdiFHGMHfG5oyZY/iIvjxz533SWpZFz6Ge9SkGmNkbsAwJzSR9lyTXCTCzJ2AKvAO+9vgFVsCnJF9n4yKgkfVROBZy8YmknxwhCwjiXyU2BEjSsiTAzF6ATcOSLo5XMkjZlQPMgY8u1ej7QpLva0UOsAWGVwK2ksalALtS/O93SWcJ5yr4B5wcvr9FYTTsaw4ZeI7vQquCIL4GRpUAb+/XJiQG1PR/nEvrPsSAqvY8u1yN+9BHBTtJJ4s734PKs7jcprGomaWGX3K4Fc2iVNYB4q+axyo1OVP7HsOiW87hAIlCXhmVVKADAAAAAElFTkSuQmCC"/>
                                             </button>
                                             <div class="dropdown-menu dropdown-menu-right mt-3 menudesplegable">
-                                              <button class="dropdown-item" type="button">Action</button>
-                                              <button class="dropdown-item" type="button">Another action</button>
-                                              <button class="dropdown-item" type="button">Something else here</button>
+                                          
+                                                <button class="dropdown-item d-flex flex-row notificacionBorde" type="button">
+                                                  <img src="../images/vis.jpg" alt="">
+                                                  <div class="d-flex flex-column align-items-center pl-4 "><p class="estrenoTitulo">TEMPORADA 4</p>
+                                                <p>Ya esta disponible para vos!</p></div>
+                                              </button>
+
+                                              <button class="dropdown-item d-flex flex-row" type="button">
+                                                    <img src="../images/escuadron.jpg" alt="">
+                                                    <div class="d-flex flex-column align-items-center pl-4 "><p class="estrenoTitulo">ESCUADRON SUICIDA</p>
+                                                        <p>Próximo estreno 7 de Noviembre</p></div>
+                                              </button>
                                             </div>
                                           </div>
 
@@ -87,7 +96,7 @@
                                               <button class="dropdown-item" type="button">Cuenta</button>
                                               <button class="dropdown-item" type="button">Centro de ayuda</button>
                                               <button class="dropdown-item" type="button">Cambiar cuenta</button>
-                                              <button class="dropdown-item" type="button">Cerrar sesión</button>
+                                              <button onclick="window.location.href='login.html'" class="dropdown-item" type="button">Cerrar sesión</button>
                                             </div>
                                           </div>
                             

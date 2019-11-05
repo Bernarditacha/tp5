@@ -122,6 +122,13 @@ p{
     background: rgb(0, 0, 0)!important;
    
 }
+.notificacionBorde{
+    border-bottom: 1px solid black;
+}
+.estrenoTitulo{
+    color: black;
+    font-weight: bolder;
+}
 .userJuan{
     font-weight: bolder;
 }
