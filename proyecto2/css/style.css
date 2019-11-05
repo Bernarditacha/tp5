@@ -8,10 +8,6 @@ body{
 }
 p{
     margin: 0;
-   
-}
-element.style {
-    vertical-align: none!important;
 }
 
 
@@ -58,11 +54,8 @@ element.style {
     font-size: 20px;
     text-align: center;
     color: #FFFFFF;
-    width: 100%;
 }
-.btn{
- vertical-align: initial !important;
-}
+
 .form-control {
     border-radius: 1em !important;
 }
@@ -247,8 +240,31 @@ footer{
     color: #FFFFFF;
 }
 
-.iconoEstrella{
+.iconoEstrellaVacia, .iconoEstrellaRellena{
     width: 40px;
+}
+.iconoEstrellaRellena{
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
+    
+    animation-play-state: running;
+    }
+    
+    @keyframes mover{
+    0%, 100% {
+    transform: rotate(12deg);
+    }
+    50% {
+    transform: rotate(-12deg);
+    }
+    }
+
+.miListaSerie{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .calificar{
@@ -263,3 +279,4 @@ footer{
 .anio{
     font-size: 18px;
 }
+
