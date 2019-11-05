@@ -169,7 +169,7 @@ font-size: 24px;
     }
     
     .iconoInfoEstreno{
-        width: 45px;
+        width: 24%;
     }
     .iconoLista{
         width: 50px;
@@ -181,7 +181,8 @@ font-size: 24px;
         width: 10%;
     }
     .iconoNext{
-        width: 20%;
+        width: 50px;
+        height: 70px;
     }
     .divpeli{
         position:relative;
@@ -200,6 +201,21 @@ font-size: 24px;
 
 .contenedorLista,  .contenedorPeliculas, .contenedorInfo{
     background: rgba(0, 0, 0, 0.7);
+}
+
+.playContinuarViendo{
+width:5%;
+height: 5%;
+}
+.barraDeTiempo{
+    width: 55%;
+    height: 10%;
+}
+.infoCapitulo{
+    width: 35%;
+    height: 10%;
+    font-size:10px;
+    font-weight: bolder;
 }
 
 /******************NAVGEGADOR******************/
