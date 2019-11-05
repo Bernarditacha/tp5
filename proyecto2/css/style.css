@@ -178,7 +178,15 @@ font-size: 24px;
 }
 .avatar{
     width: 80%;
+    opacity: 0.6;
 }
+.avatar:hover{
+   opacity: 1;
+    
+}
+
+ 
+
 /*************************************HOME**********************************************/
 .bannerEstreno{
     background-image: url(../images/animales.jpg);
