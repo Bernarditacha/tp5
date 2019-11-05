@@ -1,30 +1,3 @@
-//FUNCIONES PARA QUE APAREZCA Y DESAPAREZCA LA LINEA DE ARRIBA EN EL PELIS Y MI LISTA
-let lineaPeli = document.querySelector('.lineaArribaPeliculas');
-lineaPeli.hidden = true;
-
-let lineaLista = document.querySelector('.lineaArribaMiLista');
-lineaLista.hidden = true;
-
-let peli = document.querySelector('.peliculas');
-peli.addEventListener('mouseenter', mostrarLineaArribaPeli);
-peli.addEventListener('mouseleave', esconderLinea);
-let lista = document.querySelector('.miLista');
-lista.addEventListener('mouseenter', mostrarLineaArribaLista);
-lista.addEventListener('mouseleave', esconderLinea);
-
-
-function mostrarLineaArribaPeli(){
-    lineaPeli.hidden = false;
-}
-
-function mostrarLineaArribaLista(){
-    lineaLista.hidden = false;
-}
-
-function esconderLinea(){
-    lineaPeli.hidden = true;
-    lineaLista.hidden = true;
-}
 
 //FUNCIONES PARA QUE APAREZCAN Y DESAPAREZCAN LOS MENUES
 
@@ -34,7 +7,9 @@ notif.hidden = true;
 let user = document.querySelector('.menuUsuario');
 user.hidden = true;
 
-let vikings = document.querySelector('.vikings').addEventListener('mouseenter',mostrarContinuarVikings);
+let vikings = document.querySelector('.vikings');
+vikings.addEventListener('mouseenter',mostrarContinuarVikings);
+vikings.hidden = false;
 let vikingsHover = document.querySelector('.vikingsHover');
 
 function mostrarNotificaciones(){
@@ -56,10 +31,12 @@ function esconderMenuUser(){
 }
 
 function mostrarContinuarVikings(){
+    vikings.hidden = true;
     vikingsHover.hidden = false;
     vikingsHover.addEventListener('mouseleave', esconderHover);
 }
 
 function esconderHover(){
     vikingsHover.hidden = true;
+    vikings.hidden = false;
 }
