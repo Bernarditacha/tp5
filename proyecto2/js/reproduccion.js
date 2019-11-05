@@ -1,4 +1,4 @@
-let imgPlay = document.querySelector('.play');
+let imgPlay= document.querySelector('.play');
 
 function pausar(){
     imgPlay.hidden=false;
