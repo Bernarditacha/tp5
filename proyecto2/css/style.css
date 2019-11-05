@@ -72,6 +72,7 @@ element.style {
 }
 .form-control {
     border-radius: 1em !important;
+    
 }
 
 .estiloLetra{
@@ -172,10 +173,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 24px;
 }
-.avatar{
-    width:70%;
+.inputs{
+    margin-bottom: 0;
 }
-
+.avatar{
+    width: 80%;
+}
 /*************************************HOME**********************************************/
 .bannerEstreno{
     background-image: url(../images/animales.jpg);
@@ -370,6 +373,9 @@ footer{
 
     .temporadas{
         font-size:12px;
+    }
+    .avatar{
+        width: 50%;
     }
     }
 /***********************REPRODUCIR PELICULA*******************/
