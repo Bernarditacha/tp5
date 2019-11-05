@@ -127,7 +127,7 @@ p{
 }
 
 .tituloPaso{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
@@ -141,7 +141,6 @@ font-size: 24px;
 }
 .contenedorInfo{
     border-radius: 5px;
-    background: rgba(0, 0, 0, 0.70);
 }
 .tituloEstreno{
     font-weight: bolder;
@@ -199,7 +198,7 @@ font-size: 24px;
 
 /*************************************HOME PELICULAS**********************************************/
 
-.contenedorLista,  .contenedorPeliculas{
+.contenedorLista,  .contenedorPeliculas, .contenedorInfo{
     background: rgba(0, 0, 0, 0.7);
 }
 
@@ -236,8 +235,12 @@ footer{
     
 .apto .edad{
     font-weight: 400;
-    font-size: 15px;
-    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.infoSerie{
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .iconoEstrellaVacia, .iconoEstrellaRellena{
@@ -262,17 +265,13 @@ footer{
     }
     }
 
-.miListaSerie{
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-}
-
 .calificar{
     width: 38px;
 }
 
 .preguntaRecomendacion{
     font-size:18px;
+    line-height: 20px;
     font-weight: 700;
 }
 
@@ -280,3 +279,16 @@ footer{
     font-size: 18px;
 }
 
+.playBoton{
+    width:15px;
+}
+
+.mostrarme{
+    border: 2px solid black;
+}
+
+.contenedorachicar{
+    padding-left: 0rem!important;
+    padding-right: 0rem!important;
+
+}
