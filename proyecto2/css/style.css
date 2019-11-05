@@ -56,6 +56,9 @@ p{
     color: #FFFFFF;
     width: 100%;
 }
+.boton:hover{
+    color: #FFFFFF;
+}
 
 .form-control {
     border-radius: 1em !important;
