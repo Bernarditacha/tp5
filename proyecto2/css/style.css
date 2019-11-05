@@ -308,6 +308,23 @@ footer{
     padding-right: 0rem!important;
 
 }
+
+@media screen and (max-width: 400px){
+    .tituloInfoFicha{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    
+    .infoSerie{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .temporadas{
+        font-size:12px;
+    }
+    }
 /***********************REPRODUCIR PELICULA*******************/
 .contenedorRepro{
     background: rgba(110, 110, 110, 0.281);
