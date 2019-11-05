@@ -248,7 +248,6 @@ font-size: 24px;
     }
     
     .fotoPequeña{
-
         width: 100%;
     }
 
@@ -387,7 +386,9 @@ bottom: 0;
         font-size: 18px;
         line-height: 0px;
     }
-    
+    .fotoPequeña{
+        width: 100%;
+    }
     .infoSerie{
         font-size: 16px;
         line-height: 20px;
@@ -424,4 +425,4 @@ bottom: 0;
      
     }
    
-    }
+    
