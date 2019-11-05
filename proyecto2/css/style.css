@@ -367,6 +367,20 @@ footer{
     padding-right: 0rem!important;
 
 }
+
+/***********************REPRODUCIR PELICULA*******************/
+.contenedorRepro{
+    background: rgba(110, 110, 110, 0.281);
+position: absolute;
+bottom: 0;
+}
+.iconosRepro{
+    width: 40%;
+}
+.imgPlay{
+    width: 60%;
+}
+/************************* MEDIA QUERY ************/
 @media screen and (max-width: 400px){
     .tituloInfoFicha{
         font-weight: 700;
@@ -385,13 +399,29 @@ footer{
     .avatar{
         width: 50%;
     }
+    .iconosRepro{
+        width: 80%;
     }
-/***********************REPRODUCIR PELICULA*******************/
-.contenedorRepro{
-    background: rgba(110, 110, 110, 0.281);
-position: absolute;
-bottom: 0;
-}
-.iconosRepro{
-    width: 40%;
-}
+    .imgPlay{
+        width: 100%;
+    }
+    .video {
+        position: absolute;
+        transform: rotate(90deg);
+      
+        transform-origin: bottom left;
+        width: 100vh;
+        height: 100vw;
+        margin-top: -100vw;
+        object-fit: cover;
+      
+        z-index: 4;
+        visibility: visible;
+    }
+    .fondoRepro {
+        background-image: rotate (90deg);
+    }
+     
+    }
+   
+    }
