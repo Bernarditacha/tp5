@@ -441,7 +441,6 @@ bottom: 0;
     .fondoRepro {
         background-image: rotate (90deg);
     }
-<<<<<<< Updated upstream
      .contenedorInfo{
          margin-left:8%;
      }
@@ -451,16 +450,6 @@ bottom: 0;
      .iconoEstrellaVacia, .iconoEstrellaRellena{
          margin-right:30%;
      }
-=======
-    .tituloInfo{
-        font-size: 0.9em;
-    }
-    .lista{
-     font-size: 0.em;
-    }
-   
-     
->>>>>>> Stashed changes
     }
    
     
