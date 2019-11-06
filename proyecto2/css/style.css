@@ -422,7 +422,15 @@ bottom: 0;
     .fondoRepro {
         background-image: rotate (90deg);
     }
-     
+     .contenedorInfo{
+         margin-left:8%;
+     }
+     .temporadas{
+         margin-top: 3%;
+     }
+     .iconoEstrellaVacia, .iconoEstrellaRellena{
+         margin-right:30%;
+     }
     }
    
     
