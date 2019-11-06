@@ -311,7 +311,7 @@ footer{
 }
 
 .fondoDesktop{
-background-image: url(../images/stra.jpg); 
+background-image: url(../images/strangerInfo.jpg); 
 background-size: 100%;
 background-repeat: no-repeat;
 }
@@ -441,7 +441,6 @@ bottom: 0;
     .fondoRepro {
         background-image: rotate (90deg);
     }
-<<<<<<< Updated upstream
      .contenedorInfo{
          margin-left:8%;
      }
@@ -451,16 +450,14 @@ bottom: 0;
      .iconoEstrellaVacia, .iconoEstrellaRellena{
          margin-right:30%;
      }
-=======
-    .tituloInfo{
+
+     .tituloInfo{
         font-size: 0.9em;
     }
     .lista{
      font-size: 0.em;
     }
    
-     
->>>>>>> Stashed changes
     }
    
     
