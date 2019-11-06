@@ -310,6 +310,16 @@ footer{
     line-height: 0px;
 }
 
+.fondoDesktop{
+background-image: url(../images/strangerInfo.jpg); 
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.fondoMobile{
+    background-image: url(../images/strangerMobile.jpg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
 .apto{
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid #FFFFFF;
