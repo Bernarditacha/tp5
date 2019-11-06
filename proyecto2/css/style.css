@@ -452,4 +452,9 @@ bottom: 0;
      }
     }
    
-    
+    .bodyError{
+    background:black;
+    }
+    .tituloError{
+        font-size:48px;
+    }
