@@ -165,8 +165,14 @@ element.style {
 
 .planes{
     width: 100%;
-}
 
+}
+.plan{
+    opacity: 0.8;
+}
+.plan:hover{
+    opacity: 1;
+}
 .tituloPaso{
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-style: normal;
@@ -259,6 +265,9 @@ font-size: 24px;
 
 .contenedorLista,  .contenedorPeliculas, .contenedorInfo{
     background: rgba(0, 0, 0, 0.7);
+}
+.imagenplay:hover{
+    border-radius: 20%;
 }
 
 .playContinuarViendo{
